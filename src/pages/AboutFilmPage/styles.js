@@ -10,6 +10,19 @@ export const Wrapper = styled.main`
     flex-direction: column;
 `
 
+export const BackButton = styled.div`
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #feda4a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1.6rem;
+    cursor: pointer;
+`
+
 export const Container = styled.section`
     width: inherit;
     height: inherit;
@@ -42,9 +55,19 @@ export const Content = styled.div`
 `
 
 export const OtherInfos = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2.4rem;
+
     font-family: 'Pathway Gothic One', sans-serif;
     color: #feda4a;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-weight: 600;
     letter-spacing: 2px;
+    
+    span {
+        cursor: pointer;
+    }
 `
