@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.main`
-    width: 26%;
+    width: 27%;
     height: 26%;
     padding: 0 0.5rem;
     margin-top: 0.8rem;
@@ -16,9 +16,10 @@ export const Poster = styled.section`
     cursor: pointer;
     
     img {
-        width: 100%;
+        width: 95%;
         transform: scale(0.9);
         transition: all ease 0.2s;
+        object-fit: cover;
     }
 
     img:hover {
